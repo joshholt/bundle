@@ -1,10 +1,15 @@
 {
-    "name": "bundlr",
+    "name": "bundle",
     "author": "Joshua Holt (http://blog.thesempiternalholts.com)",
     "description": "An asset finder/generator",
-    "keywords": ["builder", "bundlr", "mainfest"],
+    "keywords": ["builder", "bundle", "mainfest"],
     "version":"0.1.0000",
-    "seed-maintainer": "Josh Holt (http://blog.thesempiternalholts.com)"
+    "seed-maintainer": "Josh Holt (http://blog.thesempiternalholts.com)",
+    
+    "builders": {
+      "haml": "bundle:builders/haml",
+      "markdown": "bundle:builders/markdown"
+    }
     
 
 }
