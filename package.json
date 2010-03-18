@@ -1,0 +1,10 @@
+{
+    "name": "bundlr",
+    "author": "Joshua Holt (http://blog.thesempiternalholts.com)",
+    "description": "An asset finder/generator",
+    "keywords": ["builder", "bundlr", "mainfest"],
+    "version":"0.1.0000",
+    "seed-maintainer": "Josh Holt (http://blog.thesempiternalholts.com)"
+    
+
+}
