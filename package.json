@@ -8,7 +8,20 @@
     
     "builders": {
       "haml": "bundle:builders/haml",
-      "markdown": "bundle:builders/markdown"
+      "markdown": "bundle:builders/markdown",
+      "sass": "bundle:builders/sass"
+    },
+    // bundle-assets is just an example, it will be removed
+    "bundle-assets": {
+      "stylesheet.css": "bundle:builders/sass",
+      "index.html": "bundle:builders/haml",
+      "blog.html": "bundle:builders/markdown"
+    },
+    
+    "dependencies": {
+      "haml-js": "0.1.3",
+      "markdown": "0.9.0",
+      "sass": "0.3.0"
     }
     
 
